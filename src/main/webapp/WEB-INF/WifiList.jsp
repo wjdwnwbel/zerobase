@@ -64,8 +64,21 @@
 	
 	<tr>
 		<td><%= list.getDistance() %></td>
+		<td><%= list.getManageNumber() %></td>
 		<td><%= list.getBorough() %></td>
 		<td><%= list.getWifiName() %></td>
+		<td><%= list.getSAddress() %></td>
+		<td><%= list.getDAddress() %></td>
+		<td><%= list.getInstallLocation() %></td>
+		<td><%= list.getInstallType() %></td>
+		<td><%= list.getInstallAgency() %></td>
+		<td><%= list.getServiceType() %></td>
+		<td><%= list.getNetType() %></td>
+		<td><%= list.getYear() %></td>
+		<td><%= list.getDoor() %></td>
+		<td><%= list.getConnEnvironment() %></td>
+		<td><%= list.getLat() %></td>
+		<td><%= list.getLnt() %></td>
 		<td><%= list.getLocalDateTime() %></td>
 	</tr>
 	<%

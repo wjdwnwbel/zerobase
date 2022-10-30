@@ -1,12 +1,10 @@
 
 function success({ coords, timestamp }) {
 	const latitude = coords.latitude;   // 위도
-	const longitude = coords.longitude; // 경도\
+	const longitude = coords.longitude; // 경도
 	
-	document.getElementById("lat").value = latitude;
-	document.getElementById("lnt").value = longitude;
-	//alert(`위도: ${latitude}, 경도: ${longitude}, 위치 반환 시간: ${timestamp}`);
-	//location.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+	document.getElementById('lnt').value = longitude;
+	document.getElementById('lat').value = latitude;
 
 }
 

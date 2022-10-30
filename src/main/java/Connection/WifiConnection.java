@@ -125,8 +125,8 @@ public class WifiConnection {
 			// 비어있는경우 0으로 처리
 			String door = obj.get("X_SWIFI_INOUT_DOOR").toString();
 			String connEnvironment = obj.get("X_SWIFI_REMARS3").toString();
-			double lat = Double.valueOf(obj.get("LAT").toString());
-			double lnt = Double.valueOf(obj.get("LNT").toString());
+			double lat = Double.valueOf(obj.get("LNT").toString());
+			double lnt = Double.valueOf(obj.get("LAT").toString());
 			String workYear = obj.get("WORK_DTTM").toString();
 			LocalDateTime time =  LocalDateTime.parse(workYear, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.S"));
 			
